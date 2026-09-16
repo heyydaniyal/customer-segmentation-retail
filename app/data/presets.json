@@ -1,0 +1,74 @@
+{
+  "Deal chaser": {
+    "spends": {
+      "lifetime_spend_groceries": 10181.0,
+      "lifetime_spend_electronics": 572.0,
+      "lifetime_spend_vegetables": 303.0,
+      "lifetime_spend_nonalcohol_drinks": 191.0,
+      "lifetime_spend_alcohol_drinks": 239.0,
+      "lifetime_spend_meat": 684.0,
+      "lifetime_spend_fish": 361.0,
+      "lifetime_spend_hygiene": 451.0,
+      "lifetime_spend_videogames": 159.0,
+      "lifetime_spend_petfood": 293.0
+    },
+    "distinct_products": 64,
+    "distinct_stores": 4,
+    "tenure_years": 9.0,
+    "promo_pct": 0.712
+  },
+  "Electronics buyer": {
+    "spends": {
+      "lifetime_spend_groceries": 7957.0,
+      "lifetime_spend_electronics": 9801.0,
+      "lifetime_spend_vegetables": 133.0,
+      "lifetime_spend_nonalcohol_drinks": 551.0,
+      "lifetime_spend_alcohol_drinks": 1085.0,
+      "lifetime_spend_meat": 892.0,
+      "lifetime_spend_fish": 835.0,
+      "lifetime_spend_hygiene": 212.0,
+      "lifetime_spend_videogames": 1518.0,
+      "lifetime_spend_petfood": 291.0
+    },
+    "distinct_products": 100,
+    "distinct_stores": 1,
+    "tenure_years": 9.0,
+    "promo_pct": 0.245
+  },
+  "Young family": {
+    "spends": {
+      "lifetime_spend_groceries": 9271.0,
+      "lifetime_spend_electronics": 1113.0,
+      "lifetime_spend_vegetables": 1814.0,
+      "lifetime_spend_nonalcohol_drinks": 507.0,
+      "lifetime_spend_alcohol_drinks": 262.0,
+      "lifetime_spend_meat": 67.0,
+      "lifetime_spend_fish": 77.0,
+      "lifetime_spend_hygiene": 1525.0,
+      "lifetime_spend_videogames": 161.0,
+      "lifetime_spend_petfood": 328.0
+    },
+    "distinct_products": 101,
+    "distinct_stores": 3,
+    "tenure_years": 10.0,
+    "promo_pct": 0.122
+  },
+  "Loyal big-basket shopper": {
+    "spends": {
+      "lifetime_spend_groceries": 26831.5,
+      "lifetime_spend_electronics": 3623.5,
+      "lifetime_spend_vegetables": 410.0,
+      "lifetime_spend_nonalcohol_drinks": 660.0,
+      "lifetime_spend_alcohol_drinks": 803.5,
+      "lifetime_spend_meat": 1031.0,
+      "lifetime_spend_fish": 921.0,
+      "lifetime_spend_hygiene": 928.0,
+      "lifetime_spend_videogames": 321.0,
+      "lifetime_spend_petfood": 344.0
+    },
+    "distinct_products": 271,
+    "distinct_stores": 4,
+    "tenure_years": 13.0,
+    "promo_pct": 0.267
+  }
+}

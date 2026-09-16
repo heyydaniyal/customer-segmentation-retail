@@ -1,0 +1,161 @@
+segment,antecedents,consequents,support,confidence,lift,n_baskets
+Engaged Family Provisioner,"cereals, fresh bread",cooking oil,0.02,0.234,2.303,36
+Engaged Family Provisioner,cooking oil,"cereals, fresh bread",0.02,0.198,2.303,36
+Engaged Family Provisioner,"cereals, cooking oil",fresh bread,0.02,0.529,2.255,36
+Engaged Family Provisioner,fresh bread,"cereals, cooking oil",0.02,0.086,2.255,36
+Engaged Family Provisioner,eggs,"bacon, butter",0.026,0.121,2.205,47
+Engaged Family Provisioner,"bacon, butter",eggs,0.026,0.48,2.205,47
+Engaged Family Provisioner,"eggs, milk",cereals,0.021,0.529,2.204,37
+Engaged Family Provisioner,cereals,"eggs, milk",0.021,0.086,2.204,37
+Engaged Family Provisioner,"bacon, eggs",butter,0.026,0.485,2.194,47
+Engaged Family Provisioner,butter,"bacon, eggs",0.026,0.119,2.194,47
+Engaged Family Provisioner,"cereals, milk",eggs,0.021,0.474,2.181,37
+Engaged Family Provisioner,eggs,"cereals, milk",0.021,0.095,2.181,37
+Engaged Family Provisioner,"eggs, oatmeal",butter,0.02,0.48,2.173,36
+Engaged Family Provisioner,butter,"eggs, oatmeal",0.02,0.091,2.173,36
+Engaged Family Provisioner,"butter, eggs",bacon,0.026,0.313,2.169,47
+Engaged Family Provisioner,bacon,"butter, eggs",0.026,0.181,2.169,47
+Engaged Family Provisioner,"bacon, fresh bread",butter,0.024,0.473,2.139,43
+Engaged Family Provisioner,butter,"bacon, fresh bread",0.024,0.109,2.139,43
+Engaged Family Provisioner,"fresh bread, honey",eggs,0.022,0.46,2.114,40
+Engaged Family Provisioner,eggs,"fresh bread, honey",0.022,0.103,2.114,40
+Engaged Family Provisioner,"cereals, oatmeal",eggs,0.02,0.456,2.095,36
+Engaged Family Provisioner,eggs,"cereals, oatmeal",0.02,0.092,2.095,36
+Engaged Family Provisioner,"butter, honey",eggs,0.022,0.453,2.085,39
+Engaged Family Provisioner,eggs,"butter, honey",0.022,0.1,2.085,39
+Engaged Family Provisioner,"cereals, eggs",milk,0.021,0.227,2.077,37
+Engaged Generalist,"butter, cereals",eggs,0.024,0.422,2.584,573
+Engaged Generalist,eggs,"butter, cereals",0.024,0.145,2.584,573
+Engaged Generalist,"butter, eggs",cereals,0.024,0.433,2.546,573
+Engaged Generalist,cereals,"butter, eggs",0.024,0.139,2.546,573
+Engaged Generalist,"eggs, fresh bread",cereals,0.023,0.425,2.5,547
+Engaged Generalist,cereals,"eggs, fresh bread",0.023,0.133,2.5,547
+Engaged Generalist,"cereals, eggs",butter,0.024,0.417,2.488,573
+Engaged Generalist,butter,"cereals, eggs",0.024,0.141,2.488,573
+Engaged Generalist,"cereals, fresh bread",eggs,0.023,0.4,2.45,547
+Engaged Generalist,eggs,"cereals, fresh bread",0.023,0.138,2.45,547
+Engaged Generalist,"butter, fresh bread",cereals,0.022,0.409,2.408,526
+Engaged Generalist,cereals,"butter, fresh bread",0.022,0.128,2.408,526
+Engaged Generalist,"butter, fresh bread",eggs,0.02,0.381,2.333,490
+Engaged Generalist,eggs,"butter, fresh bread",0.02,0.124,2.333,490
+Engaged Generalist,"cereals, fresh bread",butter,0.022,0.385,2.296,526
+Engaged Generalist,butter,"cereals, fresh bread",0.022,0.129,2.296,526
+Engaged Generalist,"eggs, fresh bread",butter,0.02,0.381,2.27,490
+Engaged Generalist,butter,"eggs, fresh bread",0.02,0.121,2.27,490
+Engaged Generalist,fresh bread,"cereals, eggs",0.023,0.127,2.247,547
+Engaged Generalist,"cereals, eggs",fresh bread,0.023,0.398,2.247,547
+Engaged Generalist,"butter, cereals",fresh bread,0.022,0.388,2.186,526
+Engaged Generalist,fresh bread,"butter, cereals",0.022,0.122,2.186,526
+Engaged Generalist,"butter, eggs",fresh bread,0.02,0.37,2.087,490
+Engaged Generalist,fresh bread,"butter, eggs",0.02,0.114,2.087,490
+Engaged Generalist,eggs,cereals,0.057,0.347,2.04,1373
+Promo Hunter,energy drink,bluetooth headphones,0.026,0.285,3.118,446
+Promo Hunter,bluetooth headphones,energy drink,0.026,0.284,3.118,446
+Promo Hunter,salad,avocado,0.028,0.286,2.94,485
+Promo Hunter,avocado,salad,0.028,0.289,2.94,485
+Promo Hunter,bluetooth headphones,airpods,0.042,0.463,2.819,728
+Promo Hunter,airpods,bluetooth headphones,0.042,0.258,2.819,728
+Promo Hunter,salad,carrots,0.03,0.302,2.802,512
+Promo Hunter,carrots,salad,0.03,0.276,2.802,512
+Promo Hunter,salad,spinach,0.03,0.303,2.741,513
+Promo Hunter,spinach,salad,0.03,0.27,2.741,513
+Promo Hunter,energy drink,airpods,0.041,0.447,2.725,700
+Promo Hunter,airpods,energy drink,0.041,0.248,2.725,700
+Promo Hunter,avocado,carrots,0.029,0.293,2.716,491
+Promo Hunter,carrots,avocado,0.029,0.265,2.716,491
+Promo Hunter,avocado,spinach,0.028,0.292,2.647,490
+Promo Hunter,spinach,avocado,0.028,0.258,2.647,490
+Promo Hunter,salad,asparagus,0.047,0.477,2.582,808
+Promo Hunter,asparagus,salad,0.047,0.254,2.582,808
+Promo Hunter,avocado,asparagus,0.045,0.462,2.503,775
+Promo Hunter,asparagus,avocado,0.045,0.244,2.503,775
+Promo Hunter,carrots,spinach,0.028,0.262,2.375,487
+Promo Hunter,spinach,carrots,0.028,0.256,2.375,487
+Promo Hunter,salad,tomatoes,0.029,0.296,2.351,501
+Promo Hunter,tomatoes,salad,0.029,0.231,2.351,501
+Promo Hunter,spinach,asparagus,0.047,0.428,2.318,814
+Routine Family Provisioner,fresh bread,butter,0.02,0.237,2.678,56
+Routine Family Provisioner,butter,fresh bread,0.02,0.23,2.678,56
+Routine Family Provisioner,energy drink,airpods,0.031,0.362,2.355,85
+Routine Family Provisioner,airpods,energy drink,0.031,0.201,2.355,85
+Routine Family Provisioner,bluetooth headphones,airpods,0.035,0.358,2.33,97
+Routine Family Provisioner,airpods,bluetooth headphones,0.035,0.229,2.33,97
+Routine Family Provisioner,laptop,airpods,0.021,0.294,1.917,58
+Routine Family Provisioner,airpods,laptop,0.021,0.137,1.917,58
+Routine Family Provisioner,brownies,airpods,0.021,0.284,1.847,59
+Routine Family Provisioner,airpods,brownies,0.021,0.139,1.847,59
+Routine Generalist,avocado,tomatoes,0.02,0.241,2.782,488
+Routine Generalist,tomatoes,avocado,0.02,0.236,2.782,488
+Routine Generalist,energy drink,bluetooth headphones,0.021,0.237,2.736,510
+Routine Generalist,bluetooth headphones,energy drink,0.021,0.247,2.736,510
+Routine Generalist,bluetooth headphones,airpods,0.032,0.368,2.687,761
+Routine Generalist,airpods,bluetooth headphones,0.032,0.233,2.687,761
+Routine Generalist,salad,spinach,0.021,0.259,2.682,507
+Routine Generalist,spinach,salad,0.021,0.22,2.682,507
+Routine Generalist,tomatoes,carrots,0.021,0.242,2.677,499
+Routine Generalist,carrots,tomatoes,0.021,0.232,2.677,499
+Routine Generalist,energy drink,airpods,0.033,0.361,2.635,777
+Routine Generalist,airpods,energy drink,0.033,0.238,2.635,777
+Routine Generalist,spinach,avocado,0.022,0.223,2.624,514
+Routine Generalist,avocado,spinach,0.022,0.254,2.624,514
+Routine Generalist,salad,asparagus,0.033,0.402,2.552,785
+Routine Generalist,asparagus,salad,0.033,0.209,2.552,785
+Routine Generalist,tomatoes,spinach,0.021,0.243,2.518,503
+Routine Generalist,spinach,tomatoes,0.021,0.218,2.518,503
+Routine Generalist,avocado,asparagus,0.033,0.392,2.494,795
+Routine Generalist,asparagus,avocado,0.033,0.212,2.494,795
+Routine Generalist,napkins,babies food,0.021,0.237,2.485,501
+Routine Generalist,babies food,napkins,0.021,0.22,2.485,501
+Routine Generalist,carrots,spinach,0.022,0.24,2.484,517
+Routine Generalist,spinach,carrots,0.022,0.224,2.484,517
+Routine Generalist,napkins,cooking oil,0.02,0.228,2.432,481
+Routine Tech,bluetooth headphones,airpods,0.032,0.478,4.013,256
+Routine Tech,airpods,bluetooth headphones,0.032,0.266,4.013,256
+Routine Tech,energy drink,bluetooth headphones,0.021,0.253,3.821,167
+Routine Tech,bluetooth headphones,energy drink,0.021,0.312,3.821,167
+Routine Tech,energy drink,airpods,0.034,0.417,3.506,275
+Routine Tech,airpods,energy drink,0.034,0.286,3.506,275
+Routine Tech,iphone 10,airpods,0.021,0.403,3.389,167
+Routine Tech,airpods,iphone 10,0.021,0.174,3.389,167
+Routine Tech,"body spray, shampoo",almonds,0.023,0.241,1.617,183
+Routine Tech,almonds,"body spray, shampoo",0.023,0.152,1.617,183
+Routine Tech,"almonds, shampoo",cotton buds,0.022,0.321,1.613,175
+Routine Tech,cotton buds,"almonds, shampoo",0.022,0.109,1.613,175
+Routine Tech,"gluten free bar, toothpaste",razor,0.022,0.333,1.599,177
+Routine Tech,razor,"gluten free bar, toothpaste",0.022,0.105,1.599,177
+Routine Tech,"cotton buds, shampoo",almonds,0.022,0.236,1.582,175
+Routine Tech,almonds,"cotton buds, shampoo",0.022,0.145,1.582,175
+Routine Tech,cotton buds,"gluten free bar, shampoo",0.022,0.109,1.567,175
+Routine Tech,"gluten free bar, shampoo",cotton buds,0.022,0.312,1.567,175
+Routine Tech,"almonds, shampoo",body spray,0.023,0.336,1.567,183
+Routine Tech,body spray,"almonds, shampoo",0.023,0.106,1.567,183
+Routine Tech,shampoo,"almonds, cotton buds",0.022,0.063,1.565,175
+Routine Tech,"almonds, cotton buds",shampoo,0.022,0.54,1.565,175
+Routine Tech,"cotton buds, toothpaste",toilet paper,0.028,0.328,1.551,230
+Routine Tech,toilet paper,"cotton buds, toothpaste",0.028,0.135,1.551,230
+Routine Tech,"nonfat milk, toothpaste",shower gel,0.026,0.532,1.55,208
+Routine Young Parents,cooking oil,napkins,0.035,0.293,2.369,774
+Routine Young Parents,napkins,cooking oil,0.035,0.284,2.369,774
+Routine Young Parents,cooking oil,babies food,0.036,0.305,2.234,805
+Routine Young Parents,babies food,cooking oil,0.036,0.268,2.234,805
+Routine Young Parents,napkins,babies food,0.036,0.293,2.148,799
+Routine Young Parents,babies food,napkins,0.036,0.266,2.148,799
+Routine Young Parents,napkins,dog food,0.038,0.305,2.066,832
+Routine Young Parents,dog food,napkins,0.038,0.255,2.066,832
+Routine Young Parents,cooking oil,dog food,0.036,0.298,2.018,787
+Routine Young Parents,dog food,cooking oil,0.036,0.242,2.018,787
+Routine Young Parents,pet food,cooking oil,0.021,0.236,1.973,455
+Routine Young Parents,cooking oil,pet food,0.021,0.172,1.973,455
+Routine Young Parents,fresh bread,napkins,0.021,0.239,1.936,473
+Routine Young Parents,napkins,fresh bread,0.021,0.173,1.936,473
+Routine Young Parents,pet food,napkins,0.021,0.239,1.932,460
+Routine Young Parents,napkins,pet food,0.021,0.169,1.932,460
+Routine Young Parents,dog food,babies food,0.039,0.263,1.928,856
+Routine Young Parents,babies food,dog food,0.039,0.284,1.928,856
+Routine Young Parents,milk,napkins,0.021,0.235,1.897,473
+Routine Young Parents,napkins,milk,0.021,0.173,1.897,473
+Routine Young Parents,cooking oil,milk,0.02,0.167,1.83,442
+Routine Young Parents,milk,cooking oil,0.02,0.219,1.83,442
+Routine Young Parents,fresh bread,babies food,0.022,0.248,1.819,490
+Routine Young Parents,babies food,fresh bread,0.022,0.163,1.819,490
+Routine Young Parents,milk,babies food,0.023,0.247,1.814,499

@@ -1,0 +1,14 @@
+# Pinned so the persisted joblib models load identically on Streamlit Cloud.
+# scikit-learn especially must match the version the models were saved with.
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+scipy==1.17.1
+matplotlib==3.10.8
+seaborn==0.13.2
+mlxtend==0.25.0
+pyarrow==24.0.0
+joblib==1.5.3
+streamlit==1.58.0
+jupyter>=1.0
+pytest>=7.4

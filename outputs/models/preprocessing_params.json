@@ -1,0 +1,22 @@
+{
+  "quantile": 0.99,
+  "medians": {
+    "distinct_stores_visited": 3.0,
+    "typical_hour": 12.0,
+    "percentage_of_products_bought_promotion": 0.2394492208095545,
+    "age": 54.86926762491444
+  },
+  "gender_mode": "female",
+  "caps": {
+    "lifetime_spend_electronics": 16781.67000000001,
+    "lifetime_spend_vegetables": 2333.630000000001,
+    "lifetime_spend_nonalcohol_drinks": 1228.0,
+    "lifetime_spend_alcohol_drinks": 2218.0,
+    "lifetime_spend_meat": 2048.260000000002,
+    "lifetime_spend_fish": 1998.630000000001,
+    "lifetime_spend_hygiene": 2555.630000000001,
+    "lifetime_spend_videogames": 2008.0,
+    "lifetime_spend_petfood": 771.0
+  },
+  "n_fit_rows": 33038
+}

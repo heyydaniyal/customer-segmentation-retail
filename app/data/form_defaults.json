@@ -1,0 +1,18 @@
+{
+  "spend_medians": {
+    "lifetime_spend_groceries": 13002.5,
+    "lifetime_spend_electronics": 1422.0,
+    "lifetime_spend_vegetables": 453.0,
+    "lifetime_spend_nonalcohol_drinks": 421.0,
+    "lifetime_spend_alcohol_drinks": 477.0,
+    "lifetime_spend_meat": 717.0,
+    "lifetime_spend_fish": 487.0,
+    "lifetime_spend_hygiene": 679.0,
+    "lifetime_spend_videogames": 219.0,
+    "lifetime_spend_petfood": 324.0
+  },
+  "distinct_products": 123,
+  "distinct_stores": 3,
+  "tenure_years": 11.0,
+  "promo_pct": 0.239
+}

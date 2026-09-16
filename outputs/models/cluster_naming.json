@@ -1,0 +1,17 @@
+{
+  "value_map": {
+    "1": "promo_hunter",
+    "2": "engaged",
+    "0": "routine"
+  },
+  "mix_map": {
+    "2": "tech",
+    "1": "family_provisioner",
+    "0": "young_parents",
+    "3": "grocery_generalist"
+  },
+  "folded": {
+    "Engaged Young Parents": "Engaged Generalist",
+    "Engaged Tech": "Engaged Generalist"
+  }
+}

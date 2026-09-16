@@ -1,0 +1,85 @@
+segment,product,baskets,pct_of_baskets
+Engaged Family Provisioner,cereals,430,24.0
+Engaged Family Provisioner,fresh bread,421,23.5
+Engaged Family Provisioner,butter,396,22.1
+Engaged Family Provisioner,eggs,390,21.8
+Engaged Family Provisioner,honey,272,15.2
+Engaged Family Provisioner,bacon,259,14.4
+Engaged Family Provisioner,asparagus,244,13.6
+Engaged Family Provisioner,tea,244,13.6
+Engaged Family Provisioner,oatmeal,236,13.2
+Engaged Family Provisioner,chocolate bread,206,11.5
+Engaged Family Provisioner,black tea,205,11.4
+Engaged Family Provisioner,milk,196,10.9
+Engaged Generalist,fresh bread,4297,17.7
+Engaged Generalist,cereals,4119,17.0
+Engaged Generalist,butter,4065,16.8
+Engaged Generalist,eggs,3960,16.3
+Engaged Generalist,honey,3004,12.4
+Engaged Generalist,tea,2898,12.0
+Engaged Generalist,oatmeal,2874,11.9
+Engaged Generalist,bacon,2811,11.6
+Engaged Generalist,asparagus,2790,11.5
+Engaged Generalist,airpods,2590,10.7
+Engaged Generalist,milk,2422,10.0
+Engaged Generalist,black tea,2347,9.7
+Promo Hunter,asparagus,3179,18.5
+Promo Hunter,airpods,2825,16.4
+Promo Hunter,tomatoes,2165,12.6
+Promo Hunter,spinach,1901,11.0
+Promo Hunter,carrots,1856,10.8
+Promo Hunter,salad,1694,9.8
+Promo Hunter,avocado,1676,9.7
+Promo Hunter,bluetooth headphones,1573,9.1
+Promo Hunter,energy drink,1565,9.1
+Promo Hunter,laptop,1515,8.8
+Promo Hunter,brownies,1457,8.5
+Promo Hunter,green beans,1451,8.4
+Routine Family Provisioner,airpods,423,15.4
+Routine Family Provisioner,asparagus,339,12.3
+Routine Family Provisioner,bluetooth headphones,271,9.8
+Routine Family Provisioner,protein bar,258,9.4
+Routine Family Provisioner,energy bar,251,9.1
+Routine Family Provisioner,butter,244,8.9
+Routine Family Provisioner,fresh bread,236,8.6
+Routine Family Provisioner,energy drink,235,8.5
+Routine Family Provisioner,gluten free bar,219,8.0
+Routine Family Provisioner,phone car charger,219,8.0
+Routine Family Provisioner,eggs,215,7.8
+Routine Family Provisioner,brownies,208,7.6
+Routine Generalist,asparagus,3754,15.7
+Routine Generalist,airpods,3269,13.7
+Routine Generalist,dog food,2449,10.3
+Routine Generalist,spinach,2307,9.7
+Routine Generalist,babies food,2277,9.5
+Routine Generalist,cooking oil,2233,9.4
+Routine Generalist,carrots,2153,9.0
+Routine Generalist,energy drink,2152,9.0
+Routine Generalist,napkins,2113,8.9
+Routine Generalist,bluetooth headphones,2067,8.7
+Routine Generalist,tomatoes,2066,8.7
+Routine Generalist,avocado,2026,8.5
+Routine Tech,toothpaste,2791,34.5
+Routine Tech,shampoo,2789,34.5
+Routine Tech,deodorant,2776,34.3
+Routine Tech,shower gel,2773,34.3
+Routine Tech,tooth brush,2764,34.2
+Routine Tech,energy bar,1895,23.4
+Routine Tech,protein bar,1858,23.0
+Routine Tech,body spray,1732,21.4
+Routine Tech,toilet paper,1710,21.2
+Routine Tech,antioxydant juice,1700,21.0
+Routine Tech,razor,1682,20.8
+Routine Tech,cotton buds,1609,19.9
+Routine Young Parents,dog food,3257,14.8
+Routine Young Parents,babies food,3009,13.6
+Routine Young Parents,napkins,2728,12.4
+Routine Young Parents,cooking oil,2643,12.0
+Routine Young Parents,cat food,2376,10.8
+Routine Young Parents,chicken,2235,10.1
+Routine Young Parents,toilet paper,2197,10.0
+Routine Young Parents,cereals,2151,9.7
+Routine Young Parents,milk,2017,9.1
+Routine Young Parents,asparagus,2003,9.1
+Routine Young Parents,fresh bread,1976,9.0
+Routine Young Parents,pet food,1926,8.7
