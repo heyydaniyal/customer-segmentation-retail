@@ -2,7 +2,8 @@
 
 Unsupervised segmentation of 33,038 retail customers into 7 actionable marketing segments, with per-segment promotion designs mined from 100,000 basket transactions.
 
-**Live demo:** run locally with `streamlit run app/app.py` (setup below).
+**Live demo:** [customer-segmentation-retail.streamlit.app] ( https://customer-segmentation-retail.streamlit.app/ )
+   
 
 Built as the graded project for Machine Learning II (NOVA IMS, Data Science degree). The data is synthetic course data — no real people. The raw export in `data/` is included so the pipeline is reproducible end to end; every artefact the pipeline *writes* has names, birthdates and coordinates stripped (`preprocessing.drop_identifiers`, asserted in notebook 02 and covered by a test).
 
