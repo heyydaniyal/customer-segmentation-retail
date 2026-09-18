@@ -134,7 +134,7 @@ Run the notebooks in order (01 → 04). Notebook 03 produces `outputs/customer_s
 ### Demo app
 
 ```bash
-streamlit run app/app.py
+ https://customer-segmentation-retail.streamlit.app/
 ```
 
 Four tabs: a segment explorer, a single-customer classifier (with one-click
