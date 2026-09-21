@@ -24,6 +24,7 @@ sys.path.insert(0, str(ROOT))
 
 from src import config as cfg          # noqa: E402
 from src import clustering as clu      # noqa: E402
+from src import preprocessing as pp    # noqa: E402
 from app import batch                   # noqa: E402
 
 APP_DATA = ROOT / "app" / "data"
@@ -373,6 +374,29 @@ def init_form_state() -> None:
     st.session_state["in_promo"] = float(defaults["promo_pct"])
 
 
+def form_to_features(spends, n_products, n_stores, tenure, promo) -> dict:
+    """Run the form inputs through the same frozen preprocessing pipeline
+    that batch scoring uses (imputation medians and 99th-percentile spend
+    caps included), so the form and an uploaded file always agree on a
+    customer's segment. Fields the form does not ask for are left blank and
+    filled by the frozen medians; none of them feed the two perspectives."""
+    raw = {
+        "customer_id": 0, "customer_name": "Form Customer",
+        "customer_gender": "female", "customer_birthdate": None,
+        "kids_home": 0.0, "teens_home": 0.0, "number_complaints": 0.0,
+        "typical_hour": np.nan, "loyalty_card_number": np.nan,
+        "latitude": np.nan, "longitude": np.nan,
+        "distinct_stores_visited": float(n_stores),
+        "lifetime_total_distinct_products": float(n_products),
+        "percentage_of_products_bought_promotion": float(promo),
+        "year_first_transaction": float(cfg.MAX_VALID_FIRST_TRANSACTION_YEAR - tenure),
+        **{k: float(v) for k, v in spends.items()},
+    }
+    row = pp.build_features(pd.DataFrame([raw]),
+                            load_models()["preproc_params"]).iloc[0]
+    return row[cfg.VALUE_FEATURES + cfg.PRODUCT_MIX_FEATURES].to_dict()
+
+
 def page_classify():
     init_form_state()
     st.write(
@@ -412,16 +436,7 @@ def page_classify():
         if total <= 0:
             st.error("Total spend must be positive.")
             return
-        feats = {
-            "total_spend_log": np.log1p(total),
-            "lifetime_total_distinct_products": n_products,
-            "distinct_stores_visited": n_stores,
-            "tenure_years": tenure,
-            "promo_pct": promo,
-        }
-        for col, val in spends.items():
-            short = col.replace("lifetime_spend_", "")
-            feats[f"share_{short}"] = val / total
+        feats = form_to_features(spends, n_products, n_stores, tenure, promo)
 
         ranked = nearest_segments(feats)
         seg = ranked[0][0]

@@ -19,15 +19,15 @@ This project separates the two questions. Customers are clustered twice, on disj
 
 | Segment | Size | What defines it |
 |---|---|---|
-| Engaged Generalist | 8,336 | The core loyal base. Highest spend, broadest baskets (275 distinct products against a population median of 123), 12.8-year average tenure. |
+| Engaged Generalist | 8,336 | The core loyal base. Highest spend, broad baskets (275 distinct products against a population average of 149), 12.8-year average tenure. |
 | Routine Generalist | 8,075 | Same grocery-heavy mix as the engaged group but ~108 distinct products and lower spend — the natural reactivation target. |
 | Promo Hunter | 6,999 | 71% of purchases made on promotion (next-highest segment: 32%). Deal-driven regardless of category. |
 | Routine Young Parents | 4,921 | Cluster profile says vegetables and hygiene; basket rules say babies food, napkins and cooking oil. Highest purchase frequency in the dataset. |
 | Routine Tech | 3,147 | 40% of spend on electronics, fewest stores (1.5), smallest households. Produces the strongest rule in the data (bluetooth headphones → airpods, lift 4.0) — though by basket lift its real signature is personal care at 5× the population rate. See the caveat below. |
-| Routine Family Provisioner | 966 | Balanced meat / fish / hygiene provisioning basket, moderate spend, low promo use (18%). |
+| Routine Family Provisioner | 966 | Spend tilts to meat, fish and pet food; the lowest mean spend of any segment; low promo use (18%). |
 | Engaged Family Provisioner | 594 | Small but valuable: the most distinct products of any segment (319), the longest tenure (14 years), the largest households. |
 
-**The finding that shaped the whole analysis.** The two source files do not describe the same behaviour. `customer_info` gives lifetime spend per category; `customer_basket` gives the items people actually buy. Correlating them per customer, across all ten categories, gives rank correlations between **−0.19 and +0.05** — never meaningfully positive. The sharpest case: the segment with the *highest* electronics spend share (40%) has the *lowest* electronics basket share, and its basket signature is personal care at 5× the population rate.
+**The finding that shaped the whole analysis.** The two source files do not describe the same behaviour. `customer_info` gives lifetime spend per category; `customer_basket` gives the items people actually buy. Correlating them per customer, across all ten categories, gives rank correlations between **−0.19 and +0.05** — never meaningfully positive. The sharpest case: the segment with the *highest* electronics spend share (40%) has one of the lowest electronics basket shares (5.9%, against 5.7% for the lowest), and its basket signature is personal care at 5× the population rate.
 
 This is almost certainly an artefact of how the synthetic course data was generated — the two files were built from independent latent profiles. It is measured in notebook 04 §3b rather than assumed either way, and it bounds what the promotions can claim: a design justified by an **association rule** stands on its own basket evidence, while one justified by a **spend profile** is a `customer_info` fact the baskets do not corroborate. Every promotion in `outputs/promotion_designs.csv` carries a `basis` column recording which it is.
 
