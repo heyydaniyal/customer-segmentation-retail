@@ -116,9 +116,8 @@ SEGMENT_NOTES = {
     ),
     "Promo Hunter": (
         "71% of their purchases are on promotion. No other segment is even "
-        "above 32%. They also hit more stores than anyone else, which tells "
-        "you they're comparison shopping. You're not going to change that "
-        "behaviour; the promotion designs just channel it somewhere useful."
+        "above 32%. You're not going to change that behaviour; the "
+        "promotion designs just channel it somewhere useful."
     ),
     "Routine Young Parents": (
         "The centroid points to vegetables and hygiene, but open the actual "
@@ -132,8 +131,8 @@ SEGMENT_NOTES = {
         "its real signature is personal care, five times the population rate."
     ),
     "Routine Family Provisioner": (
-        "Spending tilts to meat, fish and pet food; promo use is the lowest "
-        "of any segment at 18%. Their actual baskets over-index on tech "
+        "Spending tilts to meat, fish and pet food; promo use is low at "
+        "18%. Their actual baskets over-index on tech "
         "accessories instead - the two source files disagree here, and the "
         "repo documents why rather than papering over it."
     ),
