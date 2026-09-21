@@ -21,7 +21,7 @@ This project separates the two questions. Customers are clustered twice, on disj
 |---|---|---|
 | Engaged Generalist | 8,336 | The core loyal base. Highest spend, broadest baskets (275 distinct products against a population median of 123), 12.8-year average tenure. |
 | Routine Generalist | 8,075 | Same grocery-heavy mix as the engaged group but ~108 distinct products and lower spend — the natural reactivation target. |
-| Promo Hunter | 6,999 | 71% of purchases made on promotion (next-highest segment: 32%). Visits the most stores of any segment. Deal-driven regardless of category. |
+| Promo Hunter | 6,999 | 71% of purchases made on promotion (next-highest segment: 32%). Deal-driven regardless of category. |
 | Routine Young Parents | 4,921 | Cluster profile says vegetables and hygiene; basket rules say babies food, napkins and cooking oil. Highest purchase frequency in the dataset. |
 | Routine Tech | 3,147 | 40% of spend on electronics, fewest stores (1.5), smallest households. Produces the strongest rule in the data (bluetooth headphones → airpods, lift 4.0) — though by basket lift its real signature is personal care at 5× the population rate. See the caveat below. |
 | Routine Family Provisioner | 966 | Balanced meat / fish / hygiene provisioning basket, moderate spend, low promo use (18%). |
