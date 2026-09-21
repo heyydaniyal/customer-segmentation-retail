@@ -8,9 +8,11 @@ segmentations we can quantify how much extra information the clustering
 captures.
 
 RFM stands for Recency, Frequency, Monetary, the standard customer
-segmentation heuristic in retail analytics. Our data does not include
-recency directly, so we use tenure (proxy for engagement length) and
-substitute distinct_stores_visited for frequency.
+segmentation heuristic in retail analytics. This baseline is RFM-style
+only: the data has no recency, so the first bin is tenure (time since the
+FIRST purchase, which is not recency), and distinct_stores_visited stands
+in for frequency although it measures breadth. Only the monetary bin is a
+true RFM component.
 """
 
 from __future__ import annotations
@@ -49,7 +51,7 @@ def coarse_rfm_label(rfm_df):
     that roughly mirror our K-Means segments. Used to compare like with like.
 
     All three bins participate in the rule. An earlier version unpacked the
-    recency bin and then never used it, which made this an FM heuristic
+    first (tenure) bin and then never used it, which made this an FM heuristic
     wearing an RFM name — the baseline was weaker than it claimed to be.
 
     Returns a pd.Series of named labels.
@@ -59,11 +61,11 @@ def coarse_rfm_label(rfm_df):
         if m >= 3 and f >= 2 and r >= 2:
             return "rfm_high_value"
         if m == 1 and f == 1 and r == 1:
-            return "rfm_lapsed_low"
+            return "rfm_new_low_spend"
         if r >= 3 and f >= 3:
-            return "rfm_loyal_frequent"
+            return "rfm_long_tenure_many_stores"
         if f >= 3:
-            return "rfm_frequent"
+            return "rfm_many_stores"
         return "rfm_middle"
     return rfm_df.apply(_label, axis=1)
 

@@ -111,9 +111,9 @@ SEGMENT_NOTES = {
         "their baskets together is breakfast staples."
     ),
     "Routine Generalist": (
-        "Similar grocery-heavy mix to the engaged group but about a third of "
-        "the basket breadth. If you're picking one segment to try and "
-        "reactivate, it's this one."
+        "Similar grocery-heavy mix to the engaged group but about two-fifths "
+        "of the basket breadth. They shop as often as the engaged group, so "
+        "the opportunity is more categories per basket, not more visits."
     ),
     "Promo Hunter": (
         "71% of their purchases are on promotion. No other segment is even "
@@ -122,8 +122,9 @@ SEGMENT_NOTES = {
     ),
     "Routine Young Parents": (
         "The centroid points to vegetables and hygiene, but open the actual "
-        "baskets and it's baby food, napkins, cooking oil. Highest purchase "
-        "frequency of any segment."
+        "baskets and it's pet food, baby food, napkins, cooking oil. The name "
+        "follows the baskets: kids at home are about average for the base. "
+        "Highest purchase frequency of any segment."
     ),
     "Routine Tech": (
         "40% of spend goes to electronics. Fewest stores visited, smallest "
