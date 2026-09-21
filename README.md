@@ -119,7 +119,8 @@ not covered by that licence — they are included so the pipeline is reproducibl
 `-- requirements.txt
 ```
 
-**Note on viewing the notebooks.** `01_eda.ipynb` and `03_clustering.ipynb` are over 1 MB with outputs, which is past GitHub's inline renderer limit. If a notebook shows as "too big to display", paste its GitHub URL into [nbviewer.org](https://nbviewer.org/) — that renders it in full, including figures.
+**Note on viewing the notebooks.** 
+**Viewing the notebooks.** `01_eda.ipynb` and `03_clustering.ipynb` are over 1 MB with outputs, past GitHub's inline renderer limit. Full renders on nbviewer: [01 EDA](https://nbviewer.org/github/heyydaniyal/customer-segmentation-retail/blob/main/notebooks/01_eda.ipynb) · [02 Preprocessing](https://nbviewer.org/github/heyydaniyal/customer-segmentation-retail/blob/main/notebooks/02_preprocessing.ipynb) · [03 Clustering](https://nbviewer.org/github/heyydaniyal/customer-segmentation-retail/blob/main/notebooks/03_clustering.ipynb) · [04 Promotions](https://nbviewer.org/github/heyydaniyal/customer-segmentation-retail/blob/main/notebooks/04_promotions.ipynb)
 
 ## Running it
 
